@@ -1,5 +1,5 @@
 # deungeon-descriptions
-Generate dungeon description files of various formats from structured data.
+Automatically generate downloadable dungeon description files of various formats from structured data.
 
 Structured data can be found [here](https://github.com/yggilabs/dungeon-descriptions/blob/master/_data/dungeons.yml). The format is in YAML but JSON or CSV files could work. here is a sample:
 

@@ -1,0 +1,26 @@
+- name: Fair Wilds
+  desc: 
+    Untamed and unscouted woods
+    Known for peace and pleasant sights
+  tags:
+    easy
+    early game
+    grassland aesthetic
+    
+- name: Teeming pasture
+  dec: 
+    An overgrown grazing field
+    Filled with countless swarms of insects
+  tags
+    vermin majority
+    grassland aestheitc
+    fey enemies
+  
+- name: Deathly castle
+  desc: 
+    A walled keep with an inner courtyard
+    Filled with the stench of decay
+  tags:
+    undead majority
+    indoor aesthetic
+    cultic enemies

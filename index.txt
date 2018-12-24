@@ -1,9 +1,7 @@
 ---
 ---
-Dungeon Descriptions
-{% assign i = 1 %}
+Dungeon Descriptions{% assign i = 1 %}
 {% for dungeon in site.data.dungeons %}
-
 DUNGEON {{ i }}
 NAME: {{ dungeon.name }}
 DESC: {{ dungeon.desc | join: ", " }}

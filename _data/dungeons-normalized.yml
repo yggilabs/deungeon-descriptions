@@ -1,16 +1,16 @@
 # this nomalizes tag values. Its more correct but also more confusing so bleh.
 tags:
   difficulty:
-    &difficulty-easy easy:    
+    ? &difficulty-easy easy
   aesthetc:
-    &grassland-aesthetic grassland aesthetic:
-    &indoor-aesthetic indoor aesthetic:
+    ? &grassland-aesthetic grassland aesthetic
+    ? &indoor-aesthetic indoor aesthetic
   majority:
-    &vermin-majority vermin majority:
-    &undead-majority undead majority:
+    ? &vermin-majority vermin majority
+    ? &undead-majority undead majority
   enemies:
-    &fey-enemies fey enemies:
-    &cultic-enemies cultic enemies:
+    ? &fey-enemies fey enemies
+    ? &cultic-enemies cultic enemies
 items:
   - name: Fair Wilds
     desc: 

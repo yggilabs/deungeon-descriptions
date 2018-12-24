@@ -1,4 +1,4 @@
-# deungeon-descriptions
+# dungeon-descriptions
 Automatically generate downloadable dungeon description files of various formats from structured data.
 
 Output files should be automatically generated on any commit. Currently, there are three examples of output

@@ -1,0 +1,12 @@
+---
+---
+Dungeon Descriptions
+{% assign i = 1 %}
+{% for dungeon in site.data.dungeons %}
+
+DUNGEON {{ i }}
+NAME: {{ dungeon.name }}
+DESC: {{ dungeon.desc | join: ", " }}
+TAGS: {{ dungeon.tags | join: ", " }}
+{% assign i = i | plus:1 %}
+{% endfor %}

@@ -6,5 +6,4 @@ DUNGEON {{ i }}
 NAME: {{ dungeon.name }}
 DESC: {{ dungeon.desc | join: ", " }}
 TAGS: {{ dungeon.tags | join: ", " }}
-{% assign i = i | plus:1 %}
-{% endfor %}
+{% assign i = i | plus:1 %}{% endfor %}

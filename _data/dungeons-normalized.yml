@@ -1,0 +1,39 @@
+# this nomalizes tag values. Its more correct but also more confusing so bleh.
+tags:
+  difficulty:
+    &difficulty-easy easy:    
+  aesthetc:
+    &grassland-aesthetic grassland aesthetic:
+    &indoor-aesthetic indoor aesthetic:
+  majority:
+    &vermin-majority vermin majority:
+    &undead-majority undead majority:
+  enemies:
+    &fey-enemies fey enemies:
+    &cultic-enemies cultic enemies:
+items:
+  - name: Fair Wilds
+    desc: 
+      - Untamed and unscouted woods
+      - Known for peace and pleasant sights
+    tags:
+      - *difficulty-easy
+      - *grassland-aesthetic
+
+  - name: Teeming pasture
+    desc: 
+      - An overgrown grazing field
+      - Filled with countless swarms of insects
+    tags:
+      - *vermin-majority
+      - *grassland-aesthetic
+      - *fey-enemies
+
+  - name: Deathly castle
+    desc: 
+      - A walled keep with an inner courtyard
+      - Filled with the stench of decay
+    tags:
+      - *undead-majority
+      - *indoor-aesthetic
+      - *cultic-enemies
